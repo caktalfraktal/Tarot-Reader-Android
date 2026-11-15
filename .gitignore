@@ -1,0 +1,28 @@
+# Credentials, signing identities, private build outputs
+.private-signing/
+.signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*password*.txt
+groq-key.txt
+.env
+.env.*
+*.apk
+*.aab
+release/
+# Local settings and caches
+local.properties
+.gradle/
+.idea/
+.vscode/
+.venv/
+__pycache__/
+*.pyc
+build/
+*.log
+.DS_Store
+Thumbs.db

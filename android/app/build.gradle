@@ -1,0 +1,4 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.christian.tarot'; compileSdk 34
+ defaultConfig { applicationId 'com.christian.tarot'; minSdk 23; targetSdk 34; versionCode 11; versionName '1.4' }
+}
